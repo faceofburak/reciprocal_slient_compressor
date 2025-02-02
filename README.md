@@ -22,6 +22,22 @@ Touch Align: When two parts have faces that are touching each other, we have use
 <img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/EXPLOSION_MODEL.png"  style="width:400px;">
 <img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/PART_LIST_.jpg"  style="width:400px;">
 <h2>Modeling and Drafting of Important Parts</h2>
+<h4> 1 - Air Tank (Designer: Dora Köksal)</h4>
+To model the main body of the tank revolve command was used, then to add some of the features datum planes were created as there were many details with angled positioning. To model the holder sweep along guide command was used with many guides along angled sketches. Additionally, some edge blends, chamfers, and hole commands were used to model the part as similar to the real product as possible. 
+<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-30-06.png"  style="width:400px;">
+
+The drafting of this part includes 2 sheets as it is a detailed part with many features requiring many detailed views. Some dimensional tolerances were defined aligning with the manufacturing processes of the product. Also, some form tolerances were introduced such as concentricity, parallelity, flatness, and profile. 
+
+<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-32-25.png"  style="width:400px;">
+<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-36-09.png"  style="width:400px;">
+<h4> 2 - Piston (Designer: Dora Köksal)</h4>
+To model this part mainly extrude and revolve commands are used and for the details chamfer, edge blend, rib, and hole commands are used. As some details were symmetric, mirror and pattern commands were utilized too. 
+<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-41-00.png"  style="width:400px;">
+
+The drafting of this part includes 2 sheets as it has many details on every face requiring many views with many detailed views. Again some dimensional tolerances, form tolerances, and a surface roughness tolerance were defined for this part to operate properly. 
+
+<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-44-14.png"  style="width:400px;">
+<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-43-34.png"  style="width:400px;">
 
 
 
