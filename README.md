@@ -40,43 +40,41 @@ The drafting of this part includes 2 sheets as it has many details on every face
 <img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-43-34.png"  style="width:400px;">
 <h4> 3 - Shaft Holder (Designer: Muhammet Berke Uçmak)</h4>
 For modeling this part, I used many commands including revolve (for the main body), extrude, and sweep (for features). After completing the main body I used some edge blends and draft commands to make the model almost identical to the real part. 
-<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-41-00.png"  style="width:400px;">
+<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-03_23-52-27.png"  style="width:400px;">
 
 For a clear drafting, first I have chosen the main views that I need to give and for the other dimensions that are not able to be given, I gave a section view. Then, I gave too many detailed views since my part was very complex. If I had tried to give them without section views, probably I would have violated the dimensioning rules and also ended up with a bad-looking hard-to-understand drafting. 
 
-<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-44-14.png"  style="width:400px;">
-<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-43-34.png"  style="width:400px;">
+<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-03_23-54-21.png"  style="width:400px;">
+<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-03_23-55-48.png"  style="width:400px;">
 <h4> 4 - Rotor (Designer: Muhammet Berke Uçmak)</h4>
 To design the rotor in Siemens NX, first I started with the main body of the rotor which can be done with one revolve command since the geometry of the main body is axis-symmetric. Then I modeled the features on both sides by modeling one of them by revolve command and I used a pattern feature to copy it in desired positions. After that, I designed the shaft for one part and mirrored it to the other side as well. There were some differences between the two sides of the shaft. Designing them had been done separately to get the same part.
            You cannot see the outer side of the bearings in the modeling. Because I design them in another file. The reason is to get the appropriate motion in the motion analysis.
 
-<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-41-00.png"  style="width:400px;">
+<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-04_00-02-11.png"  style="width:400px;">
 
 In the drafting, I gave two views of the part since it was sufficient. After the main dimensions of the part were shown in the main views, I gave detailed views to give the dimensions of the smaller features. Tolerances are given according to the manufacturing process and functionality of the rotor. To give an example, in the front view (on the left), a shaft tolerance “p6” is given. The reason is, that between the rotor’s shaft and other parts which need to be assembled with it, an interference (tight) fit is required.
  
 
-<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-44-14.png"  style="width:400px;">
-<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-43-34.png"  style="width:400px;">
+<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-04_00-03-28.png"  style="width:400px;">
 <h4> 5 - Disc&Bearing (Designer: Necmi Arda Coşkun)</h4>
 In the process of modeling this part in Siemens NX, I start with the sketch of the main body of the disc part. After extrusion, I introduce a new plane on the top of the disc, followed by the individual sketches of the bearing part. Individual and non-united (none) extrusions are needed so that the part can be painted properly as it is in reality. Finally, I finish the part with the final touches such as holes, edge blends, etc.
-<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-41-00.png"  style="width:400px;">
+<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-04_00-05-37.png"  style="width:400px;">
 
 In the drafting part, I give 3 views as it is sufficient in understanding the shape of the part. I carefully declare the dimensions, hence extension lines do not cross at all. Small details are given as detailed views as understanding those details from the base view is challenging. 
     All the tolerances in the part are given according to the corresponding manufacturing processes, which are CNC milling and turning. Additionally, hole tolerance is given as H7, which is to be fitted by the “Rotor” part designed by Berke. We give tolerances as (H7/p6) resulting in a tight fit.
 
-<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-44-14.png"  style="width:400px;">
-<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-43-34.png"  style="width:400px;">
+<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-04_00-06-47.png"  style="width:400px;">
 <h4> 6 - Plastic Cover (Designer: Necmi Arda Coşkun)</h4>
 To model this part in Siemens NX, I start with the main rectangular prism part and then using the shell command, I get a shell. After that, I add the side part with extrusion commands. Then the complex part begins, sketch of the detailed holes and details have to be precise since a little measurement error ends up in an unsimilar model. 
      For the top of the cover, a drafted extrusion command is used since these holes are through at an angle. After creating the features for one quadrant (if the part was to be thought as an xy plane from orthogonal views), the mirror command is used to complete the rest.
      In the finalization of the part, many edge blends are created as the part has curved edges.
  
-<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-41-00.png"  style="width:400px;">
+<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-04_00-09-12.png"  style="width:400px;">
 
  In the drafting of this part, I had to use 2 sheets as the part had too many details. In drafting, all the tolerances are given according to the injection molding manufacturing process. Symmetry lines are crucial in this part since the part is symmetric and dimensions are only given from one side of the part.
  
-<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-44-14.png"  style="width:400px;">
-<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-43-34.png"  style="width:400px;">
+<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-04_00-12-09.png"  style="width:400px;">
+<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-04_00-13-29.png"  style="width:400px;">
 <h4> 7 - Compressor Head (Designer: Burak Emre Doğan)</h4>
 A compressor head is a critical component of a compressor, the device used to increase the pressure of a gas by reducing its volume. The compressor head houses the essential mechanisms that perform the compression process. 
        To model this component, we should initially draw a square for the assembly with a valve plate which is also extruded on the square plate. Then, add the cooling details on the top of the object. 
