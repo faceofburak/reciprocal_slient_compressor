@@ -24,6 +24,13 @@ Touch Align: When two parts have faces that are touching each other, we have use
 <img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/EXPLOSION_DRAFT.png"  style="width:400px;">
 <img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/EXPLOSION_MODEL.png"  style="width:400px;">
 <img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/PART_LIST_.jpg"  style="width:400px;">
+
+
+
+Uploading EXPLOSION_VIDEO (1).mp4…
+
+
+
 <h2>Modeling and Drafting of Important Parts</h2>
 <h4> 1 - Compressor Head (Designer: Burak Emre Doğan)</h4>
 A compressor head is a critical component of a compressor, the device used to increase the pressure of a gas by reducing its volume. The compressor head houses the essential mechanisms that perform the compression process. 
