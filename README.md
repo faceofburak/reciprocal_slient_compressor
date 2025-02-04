@@ -80,7 +80,7 @@ A compressor head is a critical component of a compressor, the device used to in
        To model this component, we should initially draw a square for the assembly with a valve plate which is also extruded on the square plate. Then, add the cooling details on the top of the object. 
         Finally, we create the required holes with appropriate threads for the wiring of the essential mechanisms functioning in the compression process.
 
-<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-41-00.png"  style="width:400px;">
+<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-04_10-47-39.png"  style="width:400px;">
 
 On the drafting side, it is observed that there are some tolerances and roughnesses. Hole and shaft tolerances are adjusted as to which type of tolerance is more appropriate for the true fitting method. It is possible to see that many shrink fit here because the component should house the significant parts that are not able to move by vibration. On the surface roughness side, I determined that this component is produced by the die casting method by researching resemble objects and how they are produced. Also, I see that the roughness value should not be much more than a level when I examine the surface by touching it. Therefore, I determined the 1.6 value which corresponds to the minimum roughness value for the die-casting method in the surface roughness table. In addition, this draft includes linearity, flatness, and concentricity tolerance types due to the listed reasons:
 * Flatness is important for the compressor head located properly on the valve plate without any air leak.
@@ -88,16 +88,14 @@ On the drafting side, it is observed that there are some tolerances and roughnes
 * Linearity is also important for the cooling process in the compressor head.
  
 
-<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-44-14.png"  style="width:400px;">
-<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-43-34.png"  style="width:400px;">
+<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-04_10-49-36.png"  style="width:400px;">
 <h4> 8 - Valve Plate (Designer: Burak Emre Doğan)</h4>
 A valve plate is a key component in reciprocating compressors and other machinery where the regulation of fluid or gas flow is essential. It acts as a structural element that supports the movement of valves, ensuring efficient operation by controlling the flow of air, gas, or refrigerant within the compressor system. This part also includes many holes for fitting to the compressor head. To draft this part, Edge blends and holes should be added with the required measures after drawing a square.
-<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-41-00.png"  style="width:400px;">
+<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-04_10-51-01.png"  style="width:400px;">
 
  In the drafting part, there are hole tolerances that are going to make interference fit and shrink fit with the compressor head. In addition, we see that 3.2 roughness value. We get that value by examining roughness tables and production methods. When we got the component, it was hard to understand which production method was used in this part. Basically, that component might be produced by milling or turning methods. It is decided from cost analysis by the producer. Therefore, I chose 3.2 to involve both milling and turning range. Also flatness and concentricity tolerance types are included in the draft for the same reasons listed on the previous draft.
 
-<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-44-14.png"  style="width:400px;">
-<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-43-34.png"  style="width:400px;">
+<img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-04_10-51-59.png"  style="width:400px;">
 <h4> 9 - Starting Button (Designer: Arda Küçükparmak)</h4>
 We can simply call it the button that starts the compressor. It contains a semi-electronic, semi-mechanical system. At the bottom, there is a metal part that directs the air coming from the tank to the hose connection. In the modeling process, I mostly used the extrude command. Besides that, chamfer and edge blends were predominantly used. I also used the thread command 3 times.
 
