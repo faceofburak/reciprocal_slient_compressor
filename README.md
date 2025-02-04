@@ -10,6 +10,9 @@ During the disassembly, we encountered some challenges such as separating the sh
 After the disassembly, all of our group members bought a caliper to measure their parts. Some troubles occurred during the measurements as well. For instance, it was challenging to measure the dimensions where the caliper wouldn’t fit. We had to come up with practical solutions such as inserting pencil leads into the holes and measuring them.
 <img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-03-00.png"  style="width:400px;">
 <img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-02_22-03-42.png"  style="width:400px;">
+
+
+
 <h2>Assembly and Exploded View</h2>
 We had 64 unique parts and we assembled them all virtually in Siemens NX. We used fix, concentric, touch align, parallel, and align lock as constraints. 
 Fix: We used fix constraints for the parts with no motion such as the main body of the compressor: and the air tank.
@@ -96,6 +99,32 @@ To model this part in Siemens NX, I start with the main rectangular prism part a
  
 <img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-04_00-12-09.png"  style="width:400px;">
 <img src="https://github.com/faceofburak/reciprocal_slient_compressor/blob/main/2025-02-04_00-13-29.png"  style="width:400px;">
+<h2>Motion Analysis</h2>
+
+
+
+https://github.com/user-attachments/assets/4895e90d-112c-4b34-8ff2-cb4784686fd5
+
+<h2>Finite Element Analysis</h2>
+
+We analyzed the deformation observed in the air tank when the safety factor pressure of 8 bars was applied from the inside of the tank. We used ANSYS to conduct a structural simulation, first assigning fixed constraints at the bottom legs of the tank and then, applying 0.8 MPa pressure to the inner surface of the tank. Ultimately, we observed a maximum of 0.078 mm deformation which was mainly concentrated on the rear sides of the tank. 
+
+https://github.com/user-attachments/assets/2f785b63-eb0b-470a-9483-88a934681734
+
+<h2>Conclusion</h2>
+In this project, all the group members have gained experience in the disassembly of reciprocal silent compressors and general knowledge about the working principle of compressors and also their types. Learning outcomes can be ordered as:
+
+	• Reverse Engineering and Measuring
+	• CAD
+ 		* Modeling and Drafting in NX
+		* Assembly and Disassembly in NX
+	• CAE
+		* Motion Analysis in NX
+		* Structural Analysis in ANSYS
+
+
+At the end of the process, all members have overcome the challenges such as measurement differences between the parts which were modeled by different people, determining the true tolerance types and interval, analyzing the motions and structures of the parts by NX and ANSYS tools. We would like to emphasize that in our project;  every screw, bearings, etc. has been drawn by our group members. (No Siemens NX libraries were used in this project)
+
 
 
 
